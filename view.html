@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="view.css">
+
+<head>
+    <title>Slider</title>
+</head>
+
+<body>
+
+    <div class="the-mask">
+
+        <div class="container">
+            <div class="main-wrapper">
+                <div id="main_slider">
+                    <div class="slider-wrapper">
+                        <!-- <input disabled type="range" id="range-slider" name="range-slider" min="0" max="8000" value="0"> -->
+
+
+                        <div id="slider">
+
+                            <span class="min-status">0 elevi</span>
+                            <span class="max-status">8000 elevi</span>
+                            <!-- Aici pui niste var de php de min si max in locul la width -->
+                            <div id="slider-progress" data-min="0" data-max="8000" data-progress="1000"
+                                style="width: 20%;"></div>
+
+                            <span id="target" data-target="5"></span>
+                            <span id="current-target">1000 elevi</span>
+
+
+                        </div>
+
+                    </div>
+
+                    <button id="incrementButton">Adauga</button>
+
+                </div>
+
+
+            </div>
+
+</body>
+
+
+
+<script type="text/javascript" src="view.js"></script>
+
+</html>
